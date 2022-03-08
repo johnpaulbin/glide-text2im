@@ -8,7 +8,7 @@ from filelock import FileLock
 from tqdm.auto import tqdm
 
 MODEL_PATHS = {
-    "base": "https://github.com/afiaka87/laionide/releases/download/Checkpoints/laionide-v2-base.pt",
+    "base": "https://api.wandb.ai/artifactsV2/gcp-us/dalle-pytorch-replicate/QXJ0aWZhY3Q6OTY0MTU2MDc=/d7f04a3d2acfd657623bf522748efe7a",
     "upsample": "https://github.com/afiaka87/laionide/releases/download/Checkpoints/laionide-v2-sr.pt",
     "base-inpaint": "https://openaipublic.blob.core.windows.net/diffusion/dec-2021/base_inpaint.pt",
     "upsample-inpaint": "https://openaipublic.blob.core.windows.net/diffusion/dec-2021/upsample_inpaint.pt",
